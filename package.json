@@ -1,5 +1,21 @@
 {
+  "name": "logo-creator-10",
+  "version": "1.0.0",
+  "description": "Application that creates a logo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.2.11"
+    "inquirer": "8.2.4"
+  },
+  "devDependencies": {
+    "jest": "29.7.0"
   }
 }
