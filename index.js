@@ -45,6 +45,10 @@ function start() {
                 shapechoice = new Circle(shapeanswer.backgroundcolor, shapeanswer.text, shapeanswer.textcolor)
                 break;
         }
+        if (shapeanswer.text.length>3){
+            console.log('enter only 3 letters')
+            return 
+        }
         fs.writeFileSync('trouble.svg', shapechoice.create())
     })
 }
